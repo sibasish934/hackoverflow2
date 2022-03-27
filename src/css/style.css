@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dongle:wght@700&family=Estonia&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,1000');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    position: relative;
+    font-family: 'poppins', sans-serif;
+}
+body::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    background: url('../uploads/header.png.jpg')no-repeat center center/cover;
+    z-index: -1;
+    overflow: hidden;
+}
+/* .logo{
+    text-transform: capitalize;
+    color: #0c9a9fd6;
+    padding: 6px 20px;
+    margin-top: 17px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-decoration: none;
+} */
+.logo {
+    background-image: url("../uploads/Vector\ Smart\ Object.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 300px;
+    position:relative;
+    top:30px;
+    left: 30px;
+    margin-left: -50px;
+    
+}
+.village{
+    color: #ff9900;
+}
+.h{
+    background-color: whitesmoke;
+    height: 4px;
+    width: 249px;
+    border: 0 none;
+    margin-left: 3px;
+    margin-top: 23px;
+    margin-bottom: 1px;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    position:sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    overflow: hidden;
+    /* background: #fff; */
+   
+}
+
+.links-container{
+    display: flex;
+    list-style: none;
+}
+
+.link{
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: 1000;
+    font-family: 'Montserrat';
+    text-transform:uppercase;
+    color: #000;
+}
+.link:hover,
+.link:active{
+    /* padding:13px; */
+   /* text-decoration: underline;
+   text-decoration-thickness: 5px; */
+   color: whitesmoke;
+   text-decoration-color: rgb(7, 6, 6);
+   transition: ease-in-out;
+}
+.header{
+    margin-top: 60px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    /* background: url(../uploads/header.png.jpg); */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    text-align: left;
+    padding: 13px 2px;
+}
+
+.heading{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height:23px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.heading .small{
+    text-align: left;
+    display: block;
+    font-size: 60px;
+    color: #fff;
+    margin-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 69px;
+    margin-left: auto;
+    margin-top: -169px;
+}
+.linebreak{
+    /* border: 2px solid #fff; */
+    width: 50%;
+    height: 50%;
+    margin-top: 12px;
+}
+
+.heading .no-fill{
+    text-align: left;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    color:gainsboro;
+    word-wrap: break-word;
+    text-overflow:clip;
+    padding-top: 10px;
+}
+.btn{
+    text-decoration: none;
+    color:#fff;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e7895e;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    padding: 5px 5px;
+    margin-top: 23px;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #e7895e;
+    border: #e7895e 6px solid;
+    border-radius: 2px;
+    padding: 5px 20px;
+    margin-top: 23px;
+}
+.btn:hover{
+    border: #b85c31 6px solid;
+    background-color: #b85c31;
+}
+.icon{
+    margin-left: 5px;
+    margin-bottom: -1px;
+    
+}
