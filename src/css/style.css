@@ -21,7 +21,7 @@ body::before{
     width: 100%;
     height: 100%;
     position:absolute;
-    background: url('../uploads/header.png.jpg')no-repeat center center/cover;
+    background: url('../uploads/header.png.png.jpg')no-repeat center center/cover;
     z-index: -1;
     overflow: hidden;
 }
